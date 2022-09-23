@@ -1,0 +1,222 @@
+* {
+    font-family: 'Aboreto-Regular', sans-serif;
+    background-color: rgb(197, 167, 200);
+    color: black;
+}
+
+/*takes away the lines on all the links*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*adds red color when you hover over a link*/
+a:hover {
+    background-color: rgb(118, 2, 35);
+    color: white;
+}
+
+/*adds an emoji to the side when you hover over the nav*/
+#girl-emoji:hover::after {
+    content: "💁🏻‍♀️"
+}
+
+#work-emoji:hover::after {
+    content: "👩🏻‍💻"
+}
+
+#phone-emoji:hover::after {
+    content: "📞"
+}
+
+#paper-emoji:hover::after {
+    content: "📄"
+}
+
+/*all list items will be the same zie*/
+li {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#nav-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 90%;
+    width: 90%;
+    background-color: yellow;
+  }
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+section div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+img {
+    width: 15%;
+    height: 40%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+#about-me-p {
+    font-family: 'ZenKakuGothicAntique-Light', sans-serif;
+    line-height: 2;
+    height: 75%;
+    width: 65%;
+    padding-right: 30px;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Aboreto-Regular', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+h4 {
+    font-family: 'Aboreto-Regular', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color:rgb(242, 220, 244)
+}
+
+h4 a {
+    background-color:rgb(242, 220, 244)
+}
+
+.article-p {
+    font-family: 'ZenKakuGothicAntique-Light', sans-serif;
+    text-align: center;
+    background-color:rgb(242, 220, 244)
+}
+
+/*
+I want the box links to have:
+- border color
+- glow when hovered over
+- one box must appear twice as large as the others
+- the boxes will stack once the screen is smaller*/
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*I want the boxes to stack with responsive design*/
+article div {
+    display: flex;
+    flex-direction: column;
+    width: 43%; /*consider using percentage*/
+    min-height: 100px; /*ad min height*/
+    padding: 30px;
+    /*border width, style must be specified to populate*/
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin: 5px;
+    background-color:rgb(242, 220, 244)
+}
+
+/*I want the first box to be twice as large*/
+#big-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /*consider using percentage*/
+    min-height: 200px; /*ad min height*/
+    padding: 30px;
+    /*border width, style must be specified to populate*/
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin: 5px;
+}
+
+h6 {
+    font-family: 'Aboreto-Regular', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    /*centers the nav list*/
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+
+#footer-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+@media screen and (max-width: 1101px) {
+    article {
+        align-items: center;
+    }
+    article div {
+        align-items: center;
+        width: 100%;
+    }
+    .big-box {
+        width: 100%;
+    }
+    /*#nav-flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: red;
+    }*/
+}
+
+@media screen and (max-width: 900px) {
+    #nav-flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: red;
+    }
+}
+
+/*struggling with media query, I want the 
+nav and contact info to stack vertically when
+the screen is smaller */
+
+/*
+@media screen and (max-width: 700px) {
+    #footer-flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+}
+*/
