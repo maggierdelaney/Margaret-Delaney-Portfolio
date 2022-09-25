@@ -37,7 +37,7 @@ If you want to check that the image is accessible to screen readers, you can rig
 - Fonts were taken from https://fonts.google.com/ (Aboreto for the headers, and Zen Kaku Gothic Antique for the paragraphs)
 - Each image is a screen shot of the deployed website:
     - Horiseon Homepage: https://maggierdelaney.github.io/module-1-homework/
-    - Preowrk Study Gudie: https://maggierdelaney.github.io/prework-study-guide/
+    - Prework Study Gudie: https://maggierdelaney.github.io/prework-study-guide/
     - Github Account: https://github.com/maggierdelaney
 
 ## License
