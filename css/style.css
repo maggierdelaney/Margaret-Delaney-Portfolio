@@ -112,7 +112,7 @@ h4 {
 }
 
 h4 a {
-    background-color:rgb(242, 220, 244)
+    background-color:rgb(242, 220, 244);
 }
 
 .article-p {
@@ -152,7 +152,22 @@ article div {
     border-style: solid;
     border-color: black;
     margin: 5px;
-    background-color:rgb(242, 220, 244)
+    background-color:rgb(242, 220, 244);
+}
+
+#horiseon-image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#prework-image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#github-image {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 h6 {
@@ -189,12 +204,15 @@ footer {
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     #nav-flex {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
+}
+
+@media screen and (max-width: 700px) {
     #footer-flex {
         display: flex;
         flex-direction: column;

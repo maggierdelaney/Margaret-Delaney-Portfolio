@@ -8,17 +8,17 @@ Through a process of trial and error, I learned how to create responsive design 
 
 This homework assignment meets all the acceptance criteria listed below:
 - Must contain developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-    - You will see clearly the name Margaret Delaney, my photo, and a navigation bar with links cooresponding to the "about me," works, and contact information
+    - You will see clearly the name Margaret Delaney, my photo, and a navigation bar with links cooresponding to the "about me," works, contact information, and resume
 - The links in the navigation must scroll to the corresponding section
-    - The navigation links are working appropriately to take the user to the corresponsing section using href
+    - The navigation links are working appropriately to take the user to the corresponsing section using href, the "resume" links however will take the user to a pdf of my resume
 - The link to the section about the work scrolls to a section with the developer's applications
     - If you click on "work experience" in the nav bar, it will scroll to the Work Experience section with links to deployed projects
 - The first application image should be larger in size than the others
-    - The first box is twice as large as the remaiing boxes using width percentage of 100% for the flex box
+    - The first box is twice as large as the remaining boxes using width percentage of 100% for the flex box
 - The links on the applications must go to the deployed application
-    - Clicking on each link will take you to the deployed websites
+    - Clicking on each link will take you to the deployed websites, a screen shot of each project is included in the boxes to give the user a preview to the work, with alt text for screen readers
 - The layout is responsive
-    - The works boxes will stack evenly when the screen is smaller than 1101px, and the navigation bar and footer will also flex into a vertical column when the screen is smaller than 700px.
+    - The works boxes will stack evenly when the screen is smaller than 1101px, the navigation bar will stack at 1000px, and the footer will also flex into a vertical column when the screen is smaller than 700px. 1101px, 1000px and 700px was selected specifically because it allowed for the smoothest transition of the boxes into a vertical stack, and the smoothest stacking of the nav bar and footer to avoid the links getting too close together for reading.
 
 This project is ultimately a personal portfolio website with an "About Me" section, a "Work Experience" section, and contact information. This website was created to demonstrate not only my portfolio of work, but to demonstrate skills in HTML and CSS.
 
@@ -34,7 +34,11 @@ If you want to check that the image is accessible to screen readers, you can rig
 
 - Guidance on accessibility was used from https://wave.webaim.org/ 
 - Guidance for CSS properties was used from https://www.w3schools.com/
-- Fonts were taken from https://fonts.google.com/
+- Fonts were taken from https://fonts.google.com/ (Aboreto for the headers, and Zen Kaku Gothic Antique for the paragraphs)
+- Each image is a screen shot of the deployed website:
+    - Horiseon Homepage: https://maggierdelaney.github.io/module-1-homework/
+    - Preowrk Study Gudie: https://maggierdelaney.github.io/prework-study-guide/
+    - Github Account: https://github.com/maggierdelaney
 
 ## License
 
